@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(65, 64, 64);
+    text-align: center;
+}
+
+div {
+    display: inline-block;
+    margin-top: 15rem;
+}
+
+input {
+    display: flex;
+    width: 20rem;
+    height: 1.5rem;
+    margin-top: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-left: 1rem;
+    display: none;
+}
