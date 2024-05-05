@@ -3,11 +3,13 @@ body {
     padding: 0;
     background-color: rgb(65, 64, 64);
     text-align: center;
+    align-items: center;
 }
 
 div {
     display: inline-block;
     margin-top: 15rem;
+    text-align: center;
 }
 
 input {
@@ -15,16 +17,40 @@ input {
     width: 20rem;
     height: 1.5rem;
     margin-top: 2rem;
+    border-radius: 0.4rem;
 }
 
 p {
+    color: rgb(149, 149, 149);
     font-size: 1.5rem;
     font-weight: 900;
+    text-shadow: 3px 2px rgb(19, 19, 19);
 }
 
 a {
     text-decoration: none;
     color: black;
     margin-left: 1rem;
+}
+#continue {
+    font-weight: bolder;
+    background-color: pink;
+    color: rgb(19, 19, 19);
     display: none;
+    width: 10rem;
+    margin-top: 2rem;
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px rgb(71, 71, 71);
+}
+
+#submitBtn {
+    font-weight: bolder;
+    background-color: pink;
+    color: rgb(19, 19, 19);
+    width: 10rem;
+    margin-top: 2rem;
+    padding: 0.5rem 0.8rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px rgb(71, 71, 71);
 }
