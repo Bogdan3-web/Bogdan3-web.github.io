@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shared .css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Pretpostavljam da si dosla do kraja</h1>
+    <p id="index4txt">Nadam se da ti se svidio poklon. Radio sam bas puno na njemu. I sad kad imas sajt za sebe mogu stalno da ti pravim nove stvari i sta ti zelis.</p>
+    <button onclick="generateRandomNumber()" id="playBtn" style="font-weight: 900; color: black; cursor: pointer;">Igra</button>
+    <p id="result"></p>
+
+    <script>
+       function generateRandomNumber() {
+            // Generate a random number between 1 and 6
+            var randomNumber = Math.floor(Math.random() * 6) + 1;
+            var result = "";
+
+            // Determine the result based on the random number
+            if (randomNumber >= 1 && randomNumber <= 4) {
+                result = "bj";
+            } else if (randomNumber >= 5 && randomNumber <= 6) {
+                result = "free from bj";
+            }
+
+            // Display the result in the paragraph element
+            document.getElementById("result").innerHTML = result;
+        }
+    </script>
+</body>
+</html>
